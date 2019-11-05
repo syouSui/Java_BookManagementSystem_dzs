@@ -13,7 +13,7 @@ import surface.Welcom; // 导入 自定义包surface中的Welcom类
  * @Accout: javaUser
  * @Password: java
  * @DataBase: mySql 5.6.44
- * @Server_IP: www.acmaker.vip
+ * @Server_Website: www.acmaker.vip
  */
 public class MainClass {
 
