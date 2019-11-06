@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="" />
+    <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/JavaProgram/BaiQianMaiBaiJi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/JavaProgram/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/JavaProgram/ShuiXianHua.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dao/imp/StuDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dao/imp/StuDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/mainClass/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/mainClass/MainClass.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +77,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1QdYgeQVyjO40r6NGVx1m7rF1gm" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -107,7 +122,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainClass">
+  <component name="RunManager" selected="Application.ShuiXianHua">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mainClass.MainClass" />
       <module name="SE_005" />
@@ -134,6 +149,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.JavaProgram.Palindrome" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.JavaProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShuiXianHua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.JavaProgram.ShuiXianHua" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.JavaProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Test" />
       <module name="SE_005" />
@@ -149,6 +190,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShuiXianHua" />
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.MySqlOperation" />
         <item itemvalue="Application.Test" />
@@ -213,10 +256,22 @@
       <workItem from="1572512784005" duration="161000" />
       <workItem from="1572514101223" duration="529000" />
       <workItem from="1572613455432" duration="42000" />
+      <workItem from="1572999029552" duration="1850000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

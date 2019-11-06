@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AiYinSiTanJieTi",
+            "request": "launch",
+            "mainClass": "test.JavaProgram.AiYinSiTanJieTi",
+            "projectName": "SE_005"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BaiQianMaiBaiJi",
+            "request": "launch",
+            "mainClass": "test.JavaProgram.BaiQianMaiBaiJi",
+            "projectName": "SE_005"
+        }
+    ]
+}
