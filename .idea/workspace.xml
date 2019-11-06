@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/JavaProgram/BaiQianMaiBaiJi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/JavaProgram/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/JavaProgram/ShuiXianHua.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/BookOperation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/dao/imp/StuDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dao/imp/StuDaoImp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/mainClass/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/mainClass/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/AiYinSiTanJieTi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/AiYinSiTanJieTi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/BaiQianMaiBaiJi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/BaiQianMaiBaiJi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/Palindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/ShuiXianHua.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/ShuiXianHua.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/util/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/DBUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysql.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainClass/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainClass/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DBUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,6 +113,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\myJavaCode\SE_005\src" />
       <recent name="F:\myJavaCode\SE_005_Update" />
     </key>
   </component>
@@ -122,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShuiXianHua">
+  <component name="RunManager" selected="Application.MainClass">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mainClass.MainClass" />
       <module name="SE_005" />
@@ -190,9 +197,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.ShuiXianHua" />
         <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.MySqlOperation" />
         <item itemvalue="Application.Test" />
       </list>
@@ -256,7 +263,7 @@
       <workItem from="1572512784005" duration="161000" />
       <workItem from="1572514101223" duration="529000" />
       <workItem from="1572613455432" duration="42000" />
-      <workItem from="1572999029552" duration="1850000" />
+      <workItem from="1572999029552" duration="5882000" />
     </task>
     <servers />
   </component>

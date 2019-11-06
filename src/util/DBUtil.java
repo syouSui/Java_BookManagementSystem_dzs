@@ -28,7 +28,7 @@ public class DBUtil {
      */
     static  {
 //        try {
-//            // 配置文件的加载和获取只执行一次
+            // 配置文件的加载和获取只执行一次
 //            pr.load( DBUtil.class.getClassLoader().getResourceAsStream( "mysql.properties" ) );
 //
 //            driver = pr.getProperty( "driver" );
@@ -48,9 +48,8 @@ public class DBUtil {
                 e.printStackTrace( );
             }
 
-//           catch ( IOException e ) {
+//        }catch ( IOException e ) {
 //              e.printStackTrace( );
-//            }
 //        }
 
     }

@@ -19,7 +19,6 @@ public class MainClass {
 
 
 	public static void main ( String[] args ) {
-		
 
 		Welcom.show( ); // 调用 欢迎界面 , 作为第一窗口			
 
