@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/event/HandleEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/gui/ShowBorderPane_Five.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/mainClass/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/mainClass/MainClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/DBUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/gui/ShowBorderPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/gui/ShowBorderPane.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,13 +118,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShowBorderPane_Five">
-    <configuration name="ColorFontDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.gui.ColorFontDemo" />
+  <component name="RunManager" selected="Application.ControlCircle_InnerClass (1)">
+    <configuration name="ControlCircle_InnerClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.event.ControlCircle_InnerClass" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.gui.*" />
+          <option name="PATTERN" value="test.event.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ControlCircle_InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="event.ControlCircle_InnerClass" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="event.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,19 +171,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowFlowPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.gui.ShowFlowPane" />
-      <module name="SE_005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShowImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.gui.ShowImage" />
       <module name="SE_005" />
@@ -192,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ControlCircle_InnerClass (1)" />
+        <item itemvalue="Application.ControlCircle_InnerClass" />
         <item itemvalue="Application.ShowBorderPane_Five" />
         <item itemvalue="Application.ShowBorderPane" />
         <item itemvalue="Application.ShowImage" />
-        <item itemvalue="Application.ShowFlowPane" />
-        <item itemvalue="Application.ColorFontDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +255,8 @@
       <workItem from="1572999029552" duration="6973000" />
       <workItem from="1573216844034" duration="621000" />
       <workItem from="1573603772317" duration="6618000" />
-      <workItem from="1573625173212" duration="8366000" />
+      <workItem from="1573625173212" duration="9023000" />
+      <workItem from="1573639049702" duration="336000" />
     </task>
     <servers />
   </component>
