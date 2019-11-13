@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/BookOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/gui/BindingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/gui/ButtonInPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/gui/ColorFontDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/gui/NodeStytleRotateDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/gui/ShowFlowPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/gui/ShowGridPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/gui/ShowImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/gui/javaFX_GuiStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/gui/showCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/gui/showCircle_centered.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/dao/imp/StuDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dao/imp/StuDaoImp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/mainClass/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/mainClass/MainClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/AiYinSiTanJieTi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/AiYinSiTanJieTi.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/BaiQianMaiBaiJi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/BaiQianMaiBaiJi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/Palindrome.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/ShuiXianHua.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/ShuiXianHua.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/util/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/DBUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/mysql.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mainClass/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainClass/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DBUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,6 +82,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -98,7 +102,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../StudentGrades_ControlSystem" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -129,13 +133,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainClass">
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mainClass.MainClass" />
+  <component name="RunManager" selected="Application.ShowImage">
+    <configuration name="BindingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.gui.BindingDemo" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mainClass.*" />
+          <option name="PATTERN" value="test.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySqlOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="surface.MySqlOperation" />
+    <configuration name="ColorFontDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.gui.ColorFontDemo" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="surface.*" />
+          <option name="PATTERN" value="test.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.JavaProgram.Palindrome" />
+    <configuration name="ShowFlowPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.gui.ShowFlowPane" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.JavaProgram.*" />
+          <option name="PATTERN" value="test.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShuiXianHua" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.JavaProgram.ShuiXianHua" />
+    <configuration name="ShowImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.gui.ShowImage" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.JavaProgram.*" />
+          <option name="PATTERN" value="test.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Test" />
+    <configuration name="showCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.gui.showCircle" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="test.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.ShuiXianHua" />
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.MySqlOperation" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ShowImage" />
+        <item itemvalue="Application.ShowFlowPane" />
+        <item itemvalue="Application.ColorFontDemo" />
+        <item itemvalue="Application.showCircle" />
+        <item itemvalue="Application.BindingDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +267,10 @@
       <workItem from="1572512784005" duration="161000" />
       <workItem from="1572514101223" duration="529000" />
       <workItem from="1572613455432" duration="42000" />
-      <workItem from="1572999029552" duration="5882000" />
+      <workItem from="1572999029552" duration="6973000" />
+      <workItem from="1573216844034" duration="621000" />
+      <workItem from="1573603772317" duration="6618000" />
+      <workItem from="1573625173212" duration="3632000" />
     </task>
     <servers />
   </component>
@@ -275,7 +282,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
