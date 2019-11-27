@@ -10,7 +10,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
-public class HandleEvent extends Application {
+public class HandleEvent_anorrymous extends Application {
 
     private TextField tf = new TextField( "This is a textFiled.");
 
@@ -23,12 +23,22 @@ public class HandleEvent extends Application {
         HBox pane = new HBox( 10 );
 
         Button btOk = new Button( "Ok" );
-//        OkHanddleClass hd_btOk = new OkHanddleClass();
-        btOk.setOnAction( new OkHanddleClass() );
+        btOk.setOnAction( new EventHandler<ActionEvent>(){
+            @Override
+            public void handle ( ActionEvent event ) {
+                System.out.println( "btOk clicked ont time ..." );
+                tf.setText( "Ok button clicked" );
+            }
+        } );
 
         Button btNo = new Button( "No" );
-//        NoHanddleClass hd_btNo = new NoHanddleClass();
-        btOk.setOnAction( new NoHanddleClass() );
+        btNo.setOnAction( new EventHandler<ActionEvent>(){
+            @Override
+            public void handle ( ActionEvent event ) {
+                System.out.println( "btNo clicked ont time ..." );
+                tf.setText( "No button clicked" );
+            }
+        });
 
         pane.getChildren().addAll( tf, btOk, btNo );
 
@@ -36,23 +46,6 @@ public class HandleEvent extends Application {
         primaryStage.setTitle( "HandleEvent" );
         primaryStage.setScene( new Scene( pane ) );
         primaryStage.show( );
-    }
-
-    class OkHanddleClass implements EventHandler {
-
-        @Override
-        public void handle ( Event event ) {
-            System.out.println( "btOk clicked ont time ..." );
-            tf.setText( "Ok button clicked" );
-        }
-    }
-    class NoHanddleClass implements EventHandler {
-
-        @Override
-        public void handle ( Event event ) {
-            System.out.println( "btNo clicked ont time ..." );
-            tf.setText( "No button clicked" );
-        }
     }
 
 }
