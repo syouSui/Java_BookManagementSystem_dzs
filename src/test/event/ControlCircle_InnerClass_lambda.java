@@ -27,6 +27,8 @@ public class ControlCircle_InnerClass_lambda extends Application {
 		hbox.setAlignment( Pos.CENTER );
 
 		HBox circleBox = new HBox( );
+		circleBox.setSpacing( 10 );
+		circleBox.setAlignment( Pos.CENTER );
 		Circle circle = new Circle( 50 );
 
 		circle.setStroke( Color.RED );

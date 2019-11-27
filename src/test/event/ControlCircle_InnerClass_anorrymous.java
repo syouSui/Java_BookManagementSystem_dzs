@@ -14,12 +14,10 @@ import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
 
 public class ControlCircle_InnerClass_anorrymous extends Application {
-	private Circle_Pane circlePane = new Circle_Pane();
 	
 	public static void main(String[] args) {
 		Application.launch( args );
 	}
-	
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
@@ -28,12 +26,14 @@ public class ControlCircle_InnerClass_anorrymous extends Application {
 		hbox.setSpacing( 10 );
 		hbox.setAlignment( Pos.CENTER );
 
+		HBox circleBox = new HBox( );
+		circleBox.setSpacing( 10 );
+		circleBox.setAlignment( Pos.CENTER );
 		Circle circle = new Circle( 50 );
 
 		circle.setStroke( Color.RED );
 		circle.setFill( Color.YELLOW );
-		hbox.getChildren().add( circle );
-
+		circleBox.getChildren().add( circle );
 
 		
 		Button btEnlarge = new Button( "放大" );
@@ -44,7 +44,6 @@ public class ControlCircle_InnerClass_anorrymous extends Application {
 			}
 			
 		} );
-
 		Button btShrink = new Button( "缩小" );
 		btShrink.setOnAction( new EventHandler<ActionEvent>() {
 			@Override
@@ -56,7 +55,7 @@ public class ControlCircle_InnerClass_anorrymous extends Application {
 		hbox.getChildren().addAll( btEnlarge, btShrink );
 
 		BorderPane borderPane = new BorderPane( );
-		borderPane.setCenter( circlePane );
+		borderPane.setCenter( circleBox );
 		borderPane.setBottom( hbox );
 		borderPane.setAlignment( hbox, Pos.CENTER );
 		

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/HandleEvent_anorrymous.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/HandleEvent_anorrymous.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_lambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_lambda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/event/ControlCircle_InnerClass_anorrymous.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/event/ControlCircle_InnerClass_anorrymous.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/event/ControlCircle_InnerClass_lambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/event/ControlCircle_InnerClass_lambda.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,13 +127,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ControlCircle_InnerClass_lambda">
+  <component name="RunManager" selected="Application.ControlCircle_InnerClass_anorrymous">
     <configuration name="ControlCircle_InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="event.ControlCircle_InnerClass" />
+      <option name="MAIN_CLASS_NAME" value="test.event.ControlCircle_InnerClass" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="event.*" />
+          <option name="PATTERN" value="test.event.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControlCircle_InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.event.ControlCircle_InnerClass" />
+    <configuration name="ControlCircle_InnerClass_anorrymous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.event.ControlCircle_InnerClass_anorrymous" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
@@ -194,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ControlCircle_InnerClass_anorrymous" />
         <item itemvalue="Application.ControlCircle_InnerClass_lambda" />
         <item itemvalue="Application.HandleEvent_anorrymous" />
         <item itemvalue="Application.HandleEvent" />
         <item itemvalue="Application.ControlCircle_InnerClass (1)" />
-        <item itemvalue="Application.ControlCircle_InnerClass" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +266,7 @@
       <workItem from="1573603772317" duration="6618000" />
       <workItem from="1573625173212" duration="9023000" />
       <workItem from="1573639049702" duration="1280000" />
-      <workItem from="1574813413898" duration="5121000" />
+      <workItem from="1574813413898" duration="5431000" />
     </task>
     <servers />
   </component>
