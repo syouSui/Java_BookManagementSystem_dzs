@@ -22,7 +22,7 @@ public class HandleEvent_lambda extends Application {
         HBox pane = new HBox( 10 );
 
         Button btOk = new Button( "Ok" );
-        btOk.setOnAction( event -> { // 隐 式
+        btOk.setOnAction( event -> { // 隐式
             System.out.println( "btOk clicked ont time ..." );
             tf.setText( "Ok button clicked" );
         } );
