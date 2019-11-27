@@ -13,8 +13,7 @@ import javafx.scene.shape.Circle;
 import javafx.stage.Stage;
 
 public class ControlCircle_InnerClass_lambda extends Application {
-	private Circle_Pane circlePane = new Circle_Pane();
-	
+
 	public static void main(String[] args) {
 		Application.launch( args );
 	}
@@ -27,14 +26,13 @@ public class ControlCircle_InnerClass_lambda extends Application {
 		hbox.setSpacing( 10 );
 		hbox.setAlignment( Pos.CENTER );
 
+		HBox circleBox = new HBox( );
 		Circle circle = new Circle( 50 );
 
 		circle.setStroke( Color.RED );
 		circle.setFill( Color.YELLOW );
-		hbox.getChildren().add( circle );
+		circleBox.getChildren().add( circle );
 
-
-		
 		Button btEnlarge = new Button( "放大" );
 		btEnlarge.setOnAction( arg0 -> circle.setRadius(circle.getRadius()+10 ) );
 
@@ -43,7 +41,7 @@ public class ControlCircle_InnerClass_lambda extends Application {
 		hbox.getChildren().addAll( btEnlarge, btShrink );
 
 		BorderPane borderPane = new BorderPane( );
-		borderPane.setCenter( circlePane );
+		borderPane.setCenter( circleBox );
 		borderPane.setBottom( hbox );
 		borderPane.setAlignment( hbox, Pos.CENTER );
 		
