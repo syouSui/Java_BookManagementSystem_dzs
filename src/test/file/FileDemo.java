@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class fileDemo {
+public class FileDemo {
 
     static Scanner sc = new Scanner( System.in );
 
@@ -27,6 +27,7 @@ public class fileDemo {
         System.out.println( "路径? " + file.getPath() );
         System.out.println( "绝对略经? " + file.getAbsolutePath() );
         System.out.println( "最后修改时间? " + new java.util.Date(file.lastModified()).toString() );
+        System.out.println( "文件长度? " + file.length() );
 
     }
 }

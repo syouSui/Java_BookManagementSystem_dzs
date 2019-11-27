@@ -1,6 +1,8 @@
 package entity;
 
-public class Student {
+import java.io.Serializable;
+
+public class Student implements Serializable {
 
     private String sno;
     private String sname;

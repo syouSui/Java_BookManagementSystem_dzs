@@ -2,7 +2,9 @@ package entity;
 
 import surface.Surface;
 
-public class Book { // 实体类 ( javaBean ) // 普通类( 缺省修饰符类 )
+import java.io.Serializable;
+
+public class Book implements Serializable { // 实体类 ( javaBean ) // 普通类( 缺省修饰符类 )
 	private String isbn, bookName;
 	private int publisherID;
 	private double price;

@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/file/fileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/file/FileCopy_Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/file/FileInputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/file/FileListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/file/FileListFileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/file/FileOutputStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/file/FileReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/file/FileWriterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/file/program2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/file/testEntity/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_anorrymous$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_anorrymous$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_anorrymous.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_anorrymous.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/file/fileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/file/FileDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,15 +115,16 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\myJavaCode\SE_005\src\test\event" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="test.event" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\myJavaCode\SE_005\src" />
       <recent name="F:\myJavaCode\SE_005_Update" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test.file" />
+      <recent name="test.event" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myJavaCode\SE_005\src\test\event" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -127,33 +139,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ControlCircle_InnerClass_lambda">
-    <configuration name="ControlCircle_InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.event.ControlCircle_InnerClass" />
-      <module name="SE_005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.event.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ControlCircle_InnerClass_anorrymous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.event.ControlCircle_InnerClass_anorrymous" />
-      <module name="SE_005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.event.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.FileOutputStreamDemo">
     <configuration name="ControlCircle_InnerClass_lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.event.ControlCircle_InnerClass_lambda" />
       <module name="SE_005" />
@@ -167,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandleEvent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.event.HandleEvent" />
+    <configuration name="FileListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.file.FileListDemo" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.event.*" />
+          <option name="PATTERN" value="test.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +166,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandleEvent_anorrymous" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.event.HandleEvent_anorrymous" />
+    <configuration name="FileListFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.file.FileListFileDemo" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.event.*" />
+          <option name="PATTERN" value="test.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileOutputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.file.FileOutputStreamDemo" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="program2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.file.program2" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,10 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileOutputStreamDemo" />
+        <item itemvalue="Application.program2" />
+        <item itemvalue="Application.FileListFileDemo" />
+        <item itemvalue="Application.FileListDemo" />
         <item itemvalue="Application.ControlCircle_InnerClass_lambda" />
-        <item itemvalue="Application.ControlCircle_InnerClass_anorrymous" />
-        <item itemvalue="Application.HandleEvent_anorrymous" />
-        <item itemvalue="Application.HandleEvent" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +279,8 @@
       <workItem from="1573625173212" duration="9023000" />
       <workItem from="1573639049702" duration="1280000" />
       <workItem from="1574813413898" duration="6545000" />
-      <workItem from="1574822688283" duration="1290000" />
+      <workItem from="1574822688283" duration="9858000" />
+      <workItem from="1574848773000" duration="138000" />
     </task>
     <servers />
   </component>
