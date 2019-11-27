@@ -2,9 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/file/teacherCode_myTest/ObjectInputDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/file/teacherCode_myTest/ObjectOutputDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/file/FileReaderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/file/FileReaderDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/file/FileWriterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/file/FileWriterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dao/BookDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dao/BookDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dao/StuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dao/StuDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dao/imp/BookDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dao/imp/BookDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dao/imp/StuDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dao/imp/StuDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/dao/imp/UserDaoImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/dao/imp/UserDaoImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/entity/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/entity/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/mainClass/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/mainClass/MainClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/surface/BookControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/surface/BookControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/surface/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/surface/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/surface/StudentControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/surface/StudentControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/surface/Surface.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/surface/Surface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/surface/UserControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/surface/UserControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/surface/Welcom.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/surface/Welcom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/BookOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/BookOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/AiYinSiTanJieTi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/AiYinSiTanJieTi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/BaiQianMaiBaiJi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/BaiQianMaiBaiJi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/Jhosefu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/Jhosefu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/Palindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/ShuiXianHua.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/ShuiXianHua.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/MySqlOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/MySqlOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/event/CirclePane.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/CirclePane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/event/Circle_Pane.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/Circle_Pane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle$EnlargeHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle$EnlargeHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle$ShrinkHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle$ShrinkHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/file/FileInputStreamDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/file/FileInputStreamDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/file/fileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/file/fileDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/file/fileListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/file/fileListDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/file/fileListFileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/file/fileListFileDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/BindingDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/BindingDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/ButtonInPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/ButtonInPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/ColorFontDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/ColorFontDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/NodeStytleRotateDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/NodeStytleRotateDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/ShowBorderPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/ShowBorderPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/ShowBorderPane_Five.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/ShowBorderPane_Five.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/ShowFlowPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/ShowFlowPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/ShowGridPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/ShowGridPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/ShowImage.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/ShowImage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/javaFX_GuiStudy.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/javaFX_GuiStudy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/myPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/myPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/showCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/showCircle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/showCircle_centered.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/showCircle_centered.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/util/DBUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/DBUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/file/ObjectInputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/file/ObjectInputDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/file/testEntity/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/file/testEntity/Person.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +142,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/event" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/file/teacherCode_myTest" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -103,16 +156,17 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\myJavaCode\SE_005\src" />
-      <recent name="F:\myJavaCode\SE_005_Update" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\myJavaCode\SE_005\src\test\file\teacherCode_myTest" />
+      <recent name="F:\myJavaCode\SE_005\src\test\event" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="test.file" />
       <recent name="test.event" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\myJavaCode\SE_005\src\test\event" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\myJavaCode\SE_005\src" />
+      <recent name="F:\myJavaCode\SE_005_Update" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -127,46 +181,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileOutputStreamDemo">
-    <configuration name="ControlCircle_InnerClass_lambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.event.ControlCircle_InnerClass_lambda" />
-      <module name="SE_005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.event.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.file.FileListDemo" />
-      <module name="SE_005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileListFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.file.FileListFileDemo" />
-      <module name="SE_005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ObjectInputDemo">
     <configuration name="FileOutputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.file.FileOutputStreamDemo" />
       <module name="SE_005" />
@@ -180,8 +195,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="program2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.file.program2" />
+    <configuration name="ObjectInputDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.file.teacherCode_myTest.ObjectInputDemo" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.file.teacherCode_myTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectInputDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.file.ObjectInputDemo" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectOutputDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.file.teacherCode_myTest.ObjectOutputDemo" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.file.teacherCode_myTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObjectOutputDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.file.ObjectOutputDemo" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
@@ -195,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectInputDemo" />
+        <item itemvalue="Application.ObjectOutputDemo" />
+        <item itemvalue="Application.ObjectInputDemo (1)" />
+        <item itemvalue="Application.ObjectOutputDemo (1)" />
         <item itemvalue="Application.FileOutputStreamDemo" />
-        <item itemvalue="Application.program2" />
-        <item itemvalue="Application.FileListFileDemo" />
-        <item itemvalue="Application.FileListDemo" />
-        <item itemvalue="Application.ControlCircle_InnerClass_lambda" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +323,7 @@
       <workItem from="1574813413898" duration="6545000" />
       <workItem from="1574822688283" duration="9858000" />
       <workItem from="1574848773000" duration="379000" />
-      <workItem from="1574849267213" duration="23000" />
+      <workItem from="1574849267213" duration="2348000" />
     </task>
     <servers />
   </component>
@@ -288,5 +342,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java</url>
+          <line>11</line>
+          <properties class="test.file.ObjectOutputDemo" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/file/ObjectInputDemo.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

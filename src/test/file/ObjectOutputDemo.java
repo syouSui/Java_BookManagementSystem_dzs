@@ -14,13 +14,14 @@ public class ObjectOutputDemo {
         // FileOutputStream / ObjectOutputSream
 
         Person[] person = new Person[] {
-            new Person( "001", "hhh", 12 ),
-                    new Person( "003", "iii", 18 ),
-                    new Person( "002", "aaa", 13 )
+                new Person( "001", "hhh", 12 ),
+                new Person( "003", "iii", 18 ),
+                new Person( "002", "aaa", 13 ),
+                null
         };
 
         try {
-            oos = new ObjectOutputStream( new FileOutputStream( "D:\\person_datre.txt" ) );
+            oos = new ObjectOutputStream( new FileOutputStream( "D:\\person_date.txt" ) );
             for ( Person p : person ) {
                 oos.writeObject( p );
             }

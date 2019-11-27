@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 public class Person implements Serializable {
 
-    private String no,
-        name;
-    int age;
+    private String no;
+    private String name;
+    private int age;
 
 
     public Person ( ) {
@@ -14,7 +14,7 @@ public class Person implements Serializable {
     };
     public Person ( String no, String name, int age ) {
         super();
-        this.name = no;
+        this.no = no;
         this.name = name;
         this.age = age;
     }
