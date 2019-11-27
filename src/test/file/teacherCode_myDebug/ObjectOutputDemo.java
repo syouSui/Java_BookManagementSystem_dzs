@@ -1,4 +1,4 @@
-package test.file.teacherCode_myTest;
+package test.file.teacherCode_myDebug;
 
 import test.file.testEntity.Person;
 
@@ -23,7 +23,6 @@ public class ObjectOutputDemo {
 			obs.writeObject(p3);
 			obs.writeObject( null );
 			obs.flush();
-
 
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

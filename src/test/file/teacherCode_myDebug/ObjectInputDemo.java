@@ -1,4 +1,4 @@
-package test.file.teacherCode_myTest;
+package test.file.teacherCode_myDebug;
 
 import test.file.testEntity.Person;
 
@@ -14,17 +14,17 @@ public class ObjectInputDemo {
 		System.out.println("文件中的对象如下：");
 			
 		try {
-				ois=new ObjectInputStream(
-						new FileInputStream("d:\\persons.tmp" ));
-				Object obj=ois.readObject();
-				while(obj!=null){
-					//将Object类型的obj对象强制转换成Person类型
-					Person person=(Person)obj;
-					System.out.println("学号："+person.getNo()
-							+"姓名："+person.getName()
-							+"年龄："+person.getAge());
-					obj = ois.readObject();
-				}
+			ois=new ObjectInputStream(
+					new FileInputStream("d:\\persons.tmp" ));
+			Object obj=ois.readObject();
+			while(obj!=null){
+				//将Object类型的obj对象强制转换成Person类型
+				Person person=(Person)obj;
+				System.out.println("学号："+person.getNo()
+						+"姓名："+person.getName()
+						+"年龄："+person.getAge());
+				obj = ois.readObject();
+			}
 		} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
