@@ -6,8 +6,7 @@ import java.io.IOException;
 
 public class FileReaderDemo {
     public static void main ( String[] args ) {
-        // FileReader :
-        // BufferedReader : 按行读写
+        // FileReader / BufferedReader : 按行读写
 
         BufferedReader br = null;
 

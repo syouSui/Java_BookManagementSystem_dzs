@@ -6,8 +6,7 @@ import java.io.IOException;
 
 public class FileWriterDemo {
     public static void main ( String[] args ) {
-        // FileWrieter :
-        // BufferedWriter : 按行读写
+        // FileWrieter / BufferedWriter : 按行读写
 
         BufferedWriter bw = null;
 
