@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class Test {
 
+
+
     public static void main ( String args[] ) {
 
 //        Scanner sc = new Scanner( System.in );
@@ -24,6 +26,15 @@ public class Test {
 
 
 //        Book book = new Book( "asdf",
+
+        Math.random();
+
+        java.util.Random rdm_1 = new java.util.Random( );
+
+        java.util.Random rdm_2 = new java.util.Random( 1111 );
+
+        rdm_1.next
+
 
 
 

@@ -12,30 +12,53 @@ public class ObjectInputDemo {
 
     static ObjectInputStream ois = null;
 
-    public static void main ( String[] args ) {
 
-        // FileInputStream / ObjectInputSream
+    public static void ObjectInputStreamTest ( ) {
 
         ArrayList<Person> person = new ArrayList<Person>( );
 
-        try { 
+        try {
             ois = new ObjectInputStream( new FileInputStream( "D:\\person_date.txt" ) );
-
-            Object obj = null;
-            while ( (obj=ois.readObject()) != null ) {
-                person.add( (Person)obj );
-            }
-
-            for ( Person p : person ) {
-                System.out.println(
-                        "no :" + p.getNo() +"\n"+
-                        "name: " + p.getName() +"\n"+
-                        "age: " +p.getAge() +"\n" );
-            }
+            person = (ArrayList<Person>)ois.readObject();
 
         } catch ( Exception e ) {
             e.printStackTrace( );
         }
+
+        for ( Person p : person ) {
+            System.out.println(
+                    "no :" + p.getNo() +"\n"+
+                    "name: " + p.getName() +"\n"+
+                    "age: " +p.getAge() +"\n" );
+        }
+    }
+
+    public static void main ( String[] args ) {
+
+        ObjectInputStreamTest();
+
+        // FileInputStream / ObjectInputSream
+
+//        ArrayList<Person> person = new ArrayList<Person>( );
+//
+//        try {
+//            ois = new ObjectInputStream( new FileInputStream( "D:\\person_date.txt" ) );
+//
+//            Object obj = null;
+//            while ( (obj=ois.readObject()) != null ) {
+//                person.add( (Person)obj );
+//            }
+//
+//            for ( Person p : person ) {
+//                System.out.println(
+//                        "no :" + p.getNo() +"\n"+
+//                        "name: " + p.getName() +"\n"+
+//                        "age: " +p.getAge() +"\n" );
+//            }
+//
+//        } catch ( Exception e ) {
+//            e.printStackTrace( );
+//        }
 
     }
 }

@@ -5,6 +5,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class FileWriterDemo {
+
     public static void main ( String[] args ) {
         // FileWrieter / BufferedWriter : 按行读写
 
@@ -14,7 +15,7 @@ public class FileWriterDemo {
             bw = new BufferedWriter( new FileWriter( "F:\\test.txt" ) );
             String line = System.getProperty( "line.separator" );
             bw.write( "Hello World !" + line );
-            bw.write( "Hello Java !" +line );
+            bw.write( "Hello Java !" + line );
             bw.flush( );
         } catch ( Exception e ) {
             e.printStackTrace( );
