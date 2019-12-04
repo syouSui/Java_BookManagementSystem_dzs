@@ -1,9 +1,8 @@
 package test.thread;
 
-public class TaskThreadDemo {
+public class JoinDemo {
 
     public static void theacher_methond ( ) {
-        long time_begin = System.currentTimeMillis();
         // 创建任务
         Runnable printA = new _PrintChar( 'a', 100 );
         Runnable printnum = new _PrintNum( 1, 100 );
@@ -15,8 +14,6 @@ public class TaskThreadDemo {
         // 启动线程
         thread1.start();
         thread2.start();
-        long time_end = System.currentTimeMillis();
-        System.out.println( time_end-time_begin );
     }
 
     public static void my_methond ( ) {
@@ -33,10 +30,11 @@ public class TaskThreadDemo {
         my_methond();
     }
 }
-class PrintChar implements Runnable {
+
+class _PrintChar implements Runnable {
     private char charToPrint;
     private int times;
-    public PrintChar( char c, int n ) {
+    public _PrintChar ( char c, int n ) {
         charToPrint = c;
         times = n;
     }
@@ -48,9 +46,10 @@ class PrintChar implements Runnable {
         }
     }
 }
-class PrintNum implements Runnable {
+
+class _PrintNum implements Runnable {
     private int begin_num, end_num;
-    PrintNum ( int a, int b ) {
+    _PrintNum ( int a, int b ) {
         this.begin_num = a;
         this.end_num = b;
     }
