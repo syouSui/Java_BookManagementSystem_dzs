@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/thread/TaskThreadDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/BaiQianMaiBaiJi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/BaiQianMaiBaiJi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/JavaProgram/BaiQianMaiBaiJi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/JavaProgram/BaiQianMaiBaiJi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/JavaProgram/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/JavaProgram/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/Palindrome.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,22 +128,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileListFileDemo">
+  <component name="RunManager" selected="Application.TaskThreadDemo">
     <configuration name="FileListFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.file.FileListFileDemo" />
-      <module name="SE_005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.file.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileOutputStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.file.FileOutputStreamDemo" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
@@ -224,13 +209,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TaskThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.thread.TaskThreadDemo" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaskThreadDemo" />
         <item itemvalue="Application.FileListFileDemo" />
         <item itemvalue="Application.ObjectInputDemo" />
         <item itemvalue="Application.ObjectOutputDemo" />
         <item itemvalue="Application.ObjectInputDemo (1)" />
-        <item itemvalue="Application.ObjectInputDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +302,7 @@
       <workItem from="1574852747968" duration="626000" />
       <workItem from="1574853684604" duration="772000" />
       <workItem from="1574911481951" duration="6946000" />
-      <workItem from="1575417717144" duration="4027000" />
+      <workItem from="1575417717144" duration="6304000" />
     </task>
     <servers />
   </component>
