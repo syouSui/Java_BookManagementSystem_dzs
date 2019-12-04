@@ -33,7 +33,7 @@ public class Test {
 
         java.util.Random rdm_2 = new java.util.Random( 1111 );
 
-        rdm_1.next
+//        rdm_1.next
 
 
 

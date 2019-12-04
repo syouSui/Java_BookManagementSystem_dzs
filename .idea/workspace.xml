@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/BaiQianMaiBaiJi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/BaiQianMaiBaiJi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/JavaProgram/BaiQianMaiBaiJi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/JavaProgram/BaiQianMaiBaiJi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/JavaProgram/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/JavaProgram/Palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/file/FileWriterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/file/FileWriterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/file/ObjectInputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/file/ObjectInputDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -304,6 +304,7 @@
       <workItem from="1574852747968" duration="626000" />
       <workItem from="1574853684604" duration="772000" />
       <workItem from="1574911481951" duration="6946000" />
+      <workItem from="1575417717144" duration="4027000" />
     </task>
     <servers />
   </component>
