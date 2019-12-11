@@ -2,7 +2,7 @@ package test.thread;
 
 class Share { // 资源类, 三个任务, 由三个线程共享
     void print (String str ) {
-        System.out.print( "[" );
+        System.out.print( "["+str );
         try {
             Thread.sleep(1000);
         } catch ( InterruptedException e ) {
@@ -22,21 +22,16 @@ class Caller implements Runnable { // 任务类
         thread = new Thread( this );
         thread.start( );
     }
-
-    synchronized void print ( String str ) {
-        System.out.print( "[" );
-    }
-
-
     @Override
     public void run ( ) {
-
+        synchronized ( share ) {
+            share.print( str );
+        }
     }
 }
 
 
 public class NoSyn {
-
 
     public static void main ( String[] args ) throws InterruptedException {
         Share share = new Share ( );

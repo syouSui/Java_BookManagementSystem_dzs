@@ -26,16 +26,19 @@ public class Test {
 
 
 //        Book book = new Book( "asdf",
-
-        Math.random();
-
-        java.util.Random rdm_1 = new java.util.Random( );
-
-        java.util.Random rdm_2 = new java.util.Random( 1111 );
+//
+//        Math.random();
+//
+//        java.util.Random rdm_1 = new java.util.Random( );
+//
+//        java.util.Random rdm_2 = new java.util.Random( 1111 );
 
 //        rdm_1.next
 
-
+//        String[] s = args;
+//
+//        Character ch;
+//        Character.to
 
 
     }

@@ -3,6 +3,8 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/src/entity/Book.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/entity/User.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/InternetPrograming/multiplyThreadSever/MultiplyThreadSever.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/InternetPrograming/oneUser/Server.java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
