@@ -17,13 +17,17 @@ public class JoinDemo {
     }
 
     public static void my_methond ( ) {
-        Thread thread1 = new Thread(
-                new _PrintChar( 'a', 100 ) );
-        Thread thread2 = new Thread(
-                new _PrintNum( 1, 100 ) );
+        // Thread thread1 = new Thread(
+        //         new _PrintChar( 'a', 100 ) );
+        // Thread thread2 = new Thread(
+        //         new _PrintNum( 1, 100 ) );
 
-        thread1.start();
-        thread2.start();
+        // thread1.start();
+        // thread2.start();
+        new Thread(
+            new _PrintChar( 'a', 100 ) ).start();
+        new Thread(
+            new _PrintNum( 1, 100 ) ).start();
     }
 
     public static void main ( String[] args ) {
