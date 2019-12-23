@@ -2,47 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/BaiQianMaiBaiJi.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/BaiQianMaiBaiJi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/JavaProgram/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/JavaProgram/Palindrome.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_anorrymous$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_anorrymous$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_anorrymous$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_anorrymous$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_anorrymous.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_anorrymous.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_lambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/ControlCircle_InnerClass_lambda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/HandleEvent_anorrymous$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/HandleEvent_anorrymous$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/HandleEvent_anorrymous$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/HandleEvent_anorrymous$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/event/HandleEvent_lambda.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/event/HandleEvent_lambda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/file/FileWriterDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/file/FileWriterDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/file/ObjectInputDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/file/ObjectInputDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/file/ObjectOutputDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/file/ObjectOutputDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/file/fileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/file/fileDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/file/fileListFileDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/file/fileListFileDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/file/teacherCode_myDebug/ObjectInputDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/file/teacherCode_myDebug/ObjectInputDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/file/teacherCode_myDebug/ObjectOutputDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/file/teacherCode_myDebug/ObjectOutputDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/gui/ShowBorderPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/ShowBorderPane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/gui/ShowBorderPane_Five.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/ShowBorderPane_Five.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/gui/ShowGridPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/ShowGridPane.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/thread/Caller.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/thread/Caller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/thread/JoinDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/thread/JoinDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/thread/NoSyn.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/thread/NoSyn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/thread/PrintChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/thread/PrintChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/thread/PrintNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/thread/PrintNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/thread/Share.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/thread/Share.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/thread/TaskThreadDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/thread/TaskThreadDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/thread/TimeLine_Demo$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/thread/TimeLine_Demo$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/thread/TimeLine_Demo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/thread/TimeLine_Demo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/thread/TimeLine_Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/thread/TimeLine_Demo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/thread/_PrintChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/thread/_PrintChar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/test/thread/_PrintNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/thread/_PrintNum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/thread/NoSyn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/thread/NoSyn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/InternetPrograming/oneUser/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/InternetPrograming/oneUser/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.ObjectOutputDemo">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.InternetPrograming.oneUser.Client" />
       <module name="SE_005" />
@@ -194,13 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectInputDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.file.teacherCode_myDebug.ObjectInputDemo" />
+    <configuration name="ObjectOutputDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.file.ObjectOutputDemo" />
       <module name="SE_005" />
-      <option name="VM_PARAMETERS" value="-Dfile.encoding=UTF-8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.file.teacherCode_myDebug.*" />
+          <option name="PATTERN" value="test.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,19 +175,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.InternetPrograming.oneUser.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TaskThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.thread.TaskThreadDemo" />
-      <module name="SE_005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectOutputDemo" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
         <item itemvalue="Application.NoSyn" />
         <item itemvalue="Application.TimeLine_Demo" />
-        <item itemvalue="Application.TaskThreadDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +276,10 @@
       <workItem from="1574853684604" duration="772000" />
       <workItem from="1574911481951" duration="6946000" />
       <workItem from="1575417717144" duration="15779000" />
-      <workItem from="1576024939644" duration="5698000" />
+      <workItem from="1576024939644" duration="6669000" />
+      <workItem from="1576135255558" duration="652000" />
+      <workItem from="1576136358864" duration="674000" />
+      <workItem from="1576656049674" duration="1835000" />
     </task>
     <servers />
   </component>
@@ -355,6 +306,19 @@
           <url>file://$PROJECT_DIR$/src/test/file/ObjectInputDemo.java</url>
           <line>41</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java</url>
+          <line>16</line>
+          <properties class="test.file.ObjectOutputDemo" method="ObjectOutputStreamTest">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

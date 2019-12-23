@@ -23,9 +23,9 @@ public class Client extends Application {
 		Application.launch( );
 	}
 
-	//写入半径
+	// 写入半径
 	DataOutputStream toServer = null;
-	//读取面积
+	// 读取面积
 	DataInputStream fromServer = null;
 
 	@Override
@@ -50,7 +50,7 @@ public class Client extends Application {
 		primaryStage.setScene( new Scene( mainPane, 450, 200 ) );
 		primaryStage.show( );
 
-		//监听事件：文本框的输入
+		// 监听事件：文本框的输入
 		text_input.setOnAction( (e)->{
 			try {
 				double radius = Double.parseDouble( text_input.getText().trim() );
@@ -69,7 +69,6 @@ public class Client extends Application {
 //
 //			}
 //		} );
-//
 		try {
 			Socket socket=new Socket("localhost",8000);
 			fromServer=new DataInputStream(socket.getInputStream());
