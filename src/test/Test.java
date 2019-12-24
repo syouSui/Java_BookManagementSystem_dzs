@@ -40,6 +40,16 @@ public class Test {
 //        Character ch;
 //        Character.to
 
+        try {
+            int x = 10/0;
+            
+
+        } catch ( ArithmeticException e ) {
+            e.printStackTrace();
+        } catch ( Exception e ) {
+            System.out.println( "hhhh" );
+        }
+
 
     }
 
