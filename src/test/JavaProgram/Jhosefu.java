@@ -6,7 +6,6 @@ import java.util.ArrayList;
 public class Jhosefu {
 
     public static int jhosefu ( int n, int k ) {
-        int ans = 0;
 
         ArrayList<Integer> myList = new ArrayList<>();
         for ( int i = 1; i <= n; ++i ) myList.add(i);
