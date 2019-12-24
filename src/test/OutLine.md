@@ -1,6 +1,6 @@
 # 2019-2020 第一学期 外包复习提纲
 
-> Written By  就是爱吃肉肉(http://csdn.acmaker.vip) & Cafu-chino(https://cafu-chino.top)
+> Written By  就是爱吃肉(http://csdn.acmaker.vip) & Cafu-chino(https://cafu-chino.top)
 
 ## 第一章 初识java
 
