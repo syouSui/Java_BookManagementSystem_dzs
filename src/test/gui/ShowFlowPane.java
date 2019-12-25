@@ -29,6 +29,7 @@ public class ShowFlowPane extends Application {
 
         TextField tf_mi = new TextField( );
         tf_mi.setPrefColumnCount( 1 );
+
         pane.getChildren().addAll(
                 tf_mi,
                 new Label( "Last Name: " ),

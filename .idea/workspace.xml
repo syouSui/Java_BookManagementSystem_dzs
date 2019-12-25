@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/InternetPrograming/oneUser/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/InternetPrograming/oneUser/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/gui/ShowFlowPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/gui/ShowFlowPane.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,13 +128,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ObjectOutputDemo">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.InternetPrograming.oneUser.Client" />
+  <component name="RunManager" selected="Application.ShowFlowPane">
+    <configuration name="BindingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.gui.BindingDemo" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.InternetPrograming.oneUser.*" />
+          <option name="PATTERN" value="test.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NoSyn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.thread.NoSyn" />
+    <configuration name="ShowFlowPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.gui.ShowFlowPane" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.thread.*" />
+          <option name="PATTERN" value="test.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectOutputDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.file.ObjectOutputDemo" />
+    <configuration name="ShowGridPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.gui.ShowGridPane" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.file.*" />
+          <option name="PATTERN" value="test.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.InternetPrograming.oneUser.Server" />
+    <configuration name="ShowImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.gui.ShowImage" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.InternetPrograming.oneUser.*" />
+          <option name="PATTERN" value="test.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeLine_Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.thread.TimeLine_Demo" />
+    <configuration name="javaFX_GuiStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.gui.javaFX_GuiStudy" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.thread.*" />
+          <option name="PATTERN" value="test.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObjectOutputDemo" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.NoSyn" />
-        <item itemvalue="Application.TimeLine_Demo" />
+        <item itemvalue="Application.ShowFlowPane" />
+        <item itemvalue="Application.ShowGridPane" />
+        <item itemvalue="Application.ShowImage" />
+        <item itemvalue="Application.javaFX_GuiStudy" />
+        <item itemvalue="Application.BindingDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -280,6 +279,7 @@
       <workItem from="1576135255558" duration="652000" />
       <workItem from="1576136358864" duration="674000" />
       <workItem from="1576656049674" duration="1835000" />
+      <workItem from="1577231113255" duration="1914000" />
     </task>
     <servers />
   </component>
