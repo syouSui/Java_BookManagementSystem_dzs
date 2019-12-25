@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/JavaProgram/FibDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/gui/ShowFlowPane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/gui/ShowFlowPane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/gui/ShowFlowPane.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/gui/ShowFlowPane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,9 +131,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShowFlowPane">
-    <configuration name="BindingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.gui.BindingDemo" />
+  <component name="RunManager" selected="Application.FibDemo">
+    <configuration name="ColorFontDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.gui.ColorFontDemo" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.gui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FibDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.JavaProgram.FibDemo" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.JavaProgram.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowBorderPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.gui.ShowBorderPane" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
@@ -155,38 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowGridPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.gui.ShowGridPane" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Test" />
       <module name="SE_005" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShowImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.gui.ShowImage" />
-      <module name="SE_005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="javaFX_GuiStudy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.gui.javaFX_GuiStudy" />
-      <module name="SE_005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.gui.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibDemo" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ColorFontDemo" />
+        <item itemvalue="Application.ShowBorderPane" />
         <item itemvalue="Application.ShowFlowPane" />
-        <item itemvalue="Application.ShowGridPane" />
-        <item itemvalue="Application.ShowImage" />
-        <item itemvalue="Application.javaFX_GuiStudy" />
-        <item itemvalue="Application.BindingDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +282,7 @@
       <workItem from="1576135255558" duration="652000" />
       <workItem from="1576136358864" duration="674000" />
       <workItem from="1576656049674" duration="1835000" />
-      <workItem from="1577231113255" duration="1914000" />
+      <workItem from="1577231113255" duration="5867000" />
     </task>
     <servers />
   </component>

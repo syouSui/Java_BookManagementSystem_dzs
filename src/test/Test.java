@@ -6,6 +6,12 @@ import java.util.Scanner;
 
 public class Test {
 
+    public static void test ( ) throws Exception{
+
+        int x = 10/0;
+
+    }
+
 
 
     public static void main ( String args[] ) {
@@ -40,16 +46,21 @@ public class Test {
 //        Character ch;
 //        Character.to
 
+//        try {
+//            int x = 10/0;
+//
+//
+//        } catch ( ArithmeticException e ) {
+//            e.printStackTrace();
+//        } catch ( Exception e ) {
+//            System.out.println( "hhhh" );
+//        }
+
         try {
-            int x = 10/0;
-            
-
-        } catch ( ArithmeticException e ) {
-            e.printStackTrace();
+            test( );
         } catch ( Exception e ) {
-            System.out.println( "hhhh" );
+            throw new ArithmeticException();
         }
-
 
     }
 
