@@ -6,15 +6,33 @@ import java.util.Scanner;
 
 public class Test {
 
-    public static void test ( ) throws Exception{
+    protected void cout ( ) {
+        System.out.println( "111" );
+    }
+
+    public static void test ( ) throws ArithmeticException, ArrayIndexOutOfBoundsException{
 
         int x = 10/0;
 
+        int[] arr = new int[10];
+        System.out.println( arr[20] );
+
     }
 
-
-
     public static void main ( String args[] ) {
+
+        test( );
+
+//        try {
+//            test( );
+//        } catch ( ArithmeticException e ) {
+//            throw new ArithmeticException();
+//        } catch( ArrayIndexOutOfBoundsException e ) {
+//            throw new ArrayIndexOutOfBoundsException();
+//        }
+
+
+
 
 //        Scanner sc = new Scanner( System.in );
 //
@@ -56,11 +74,7 @@ public class Test {
 //            System.out.println( "hhhh" );
 //        }
 
-        try {
-            test( );
-        } catch ( Exception e ) {
-            throw new ArithmeticException();
-        }
+
 
     }
 

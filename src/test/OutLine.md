@@ -1,6 +1,6 @@
 # 2019-2020 第一学期 外包复习提纲
 
-> Written By  就是爱吃肉(http://csdn.acmaker.vip) & Cafu-chino(https://cafu-chino.top)
+> Written By  就是爱吃肉ro(http://csdn.acmaker.vip) & Cafu-chino(https://cafu-chino.top)
 
 ## 第一章 初识java
 
@@ -69,7 +69,7 @@ public void setName ( String _name ) {
 
 #### 访问权限
 
-> private > friendly > public
+> public > protected > private
 
 
 ### 3) static方法和变量 是 此类及其子类共有的
