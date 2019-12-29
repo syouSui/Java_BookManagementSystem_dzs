@@ -13,8 +13,8 @@ public class Jhosefu {
         int cnt  = 0;
         for ( int i = 0; myList.size()!=1; ++i ) {
             if( i==myList.size() ) i = 0;
-            if ( cnt%k==0 ) myList.remove( i-- );
             cnt ++;
+            if ( cnt%k==0 ) myList.remove( i-- );
         }
 
         return myList.get(0);
