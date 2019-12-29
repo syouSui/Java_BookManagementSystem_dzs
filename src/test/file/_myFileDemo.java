@@ -13,8 +13,8 @@ public class _myFileDemo {
 
             bw.write( "Hello java!" );
             bw.newLine();
-            bw.write( "Hello BufferedWriter !" );
-            bw.newLine();
+//            bw.write( "Hello BufferedWriter !" );
+//            bw.newLine();
 
         } catch ( IOException e ) {
             e.printStackTrace( );
@@ -36,7 +36,7 @@ public class _myFileDemo {
         try {
             br = new BufferedReader( new FileReader( "F://test.txt" ) );
 
-            temp = new BufferedWriter( new FileWriter( "E://new_test.txt" ) );
+            temp = new BufferedWriter( new FileWriter( "E://test.txt" ) );
 
             String line = null;
             while ( (line = br.readLine( )) != null ) {
@@ -77,7 +77,7 @@ public class _myFileDemo {
         copy( );
 
         delete( "F://test.txt" );
-//        delete( "E://new_test.txt" );
+//        delete( "E://test.txt" );
 
     }
 }
