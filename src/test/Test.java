@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Test {
 
-    protected void cout ( ) {
+    void cout ( ) {
         System.out.println( "111" );
     }
 

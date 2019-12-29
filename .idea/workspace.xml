@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1091857d-e188-44bf-8009-c69ee9eeafa1" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/test_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/file/_myFileDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/OutLine.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/OutLine.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/file/ObjectOutputDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/file/ObjectOutputDemo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_1.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application._myFileDemo">
     <configuration name="ColorFontDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.gui.ColorFontDemo" />
       <module name="SE_005" />
@@ -158,32 +160,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShowBorderPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.gui.ShowBorderPane" />
-      <module name="SE_005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShowFlowPane" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.gui.ShowFlowPane" />
-      <module name="SE_005" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.gui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Test" />
       <module name="SE_005" />
@@ -197,13 +173,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_myFileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.file._myFileDemo" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test_1" />
+      <module name="SE_005" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._myFileDemo" />
+        <item itemvalue="Application.test_1" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.FibDemo" />
         <item itemvalue="Application.ColorFontDemo" />
-        <item itemvalue="Application.ShowBorderPane" />
-        <item itemvalue="Application.ShowFlowPane" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +285,7 @@
       <workItem from="1576136358864" duration="674000" />
       <workItem from="1576656049674" duration="1835000" />
       <workItem from="1577231113255" duration="5867000" />
-      <workItem from="1577533038602" duration="1758000" />
+      <workItem from="1577533038602" duration="7933000" />
     </task>
     <servers />
   </component>
@@ -310,19 +312,6 @@
           <url>file://$PROJECT_DIR$/src/test/file/ObjectInputDemo.java</url>
           <line>41</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/file/ObjectOutputDemo.java</url>
-          <line>16</line>
-          <properties class="test.file.ObjectOutputDemo" method="ObjectOutputStreamTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

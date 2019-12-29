@@ -15,22 +15,25 @@ public class ObjectOutputDemo {
     static ObjectOutputStream oos = null;
 
     public static void ObjectOutputStreamTest ( ) {
-//
-//        ArrayList<Person> person = new ArrayList<Person>(
-//            Arrays.asList( //new Person[] {
-//                new Person( "001", "hhh", 12 ),
-//                new Person( "003", "iii", 18 ),
-//                new Person( "002", "aaa", 13 )
-//            /*}*/ )
+
+        ArrayList<Person> person = new ArrayList<Person>(
+            Arrays.asList( //new Person[] {
+                new Person( "001", "hhh", 12 ),
+                new Person( "003", "iii", 18 ),
+                new Person( "002", "aaa", 13 )
+            /*}*/ )
+        );
+
+//        ArrayList<Person> person = new ArrayList();
+//        person.addAll(
+////                new ArrayList<Person>(
+//                Arrays.asList( //new Person[] {
+//                        new Person( "001", "hhh", 12 ),
+//                        new Person( "003", "iii", 18 ),
+//                        new Person( "002", "aaa", 13 )
+//                        /*}*/ )
+////        )
 //        );
-        ArrayList<Person> person = new ArrayList();
-        person.addAll( new ArrayList<Person>(
-                Arrays.asList( //new Person[] {
-                        new Person( "001", "hhh", 12 ),
-                        new Person( "003", "iii", 18 ),
-                        new Person( "002", "aaa", 13 )
-                        /*}*/ )
-        ));
 
 
 
