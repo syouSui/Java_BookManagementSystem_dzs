@@ -31,18 +31,17 @@ public class _myFileDemo {
 
     }
 
-    public static void copy ( ) {
-        BufferedWriter temp = null;
+    public static void copy ( String from, String to ) {
         try {
-            br = new BufferedReader( new FileReader( "D://test.txt" ) );
+            br = new BufferedReader( new FileReader( from ) );
 
-            temp = new BufferedWriter( new FileWriter( "E://test.txt" ) );
+            bw = new BufferedWriter( new FileWriter( to ) );
 
             String line = null;
             while ( (line = br.readLine( )) != null ) {
 //                System.out.println( line );
-                temp.write( line );
-                temp.newLine();
+                bw.write( line );
+                bw.newLine();
             }
         } catch ( FileNotFoundException e ) {
             e.printStackTrace( );
@@ -56,9 +55,9 @@ public class _myFileDemo {
                     e.printStackTrace( );
                 }
             }
-            if ( temp != null ) {
+            if ( bw!=null ) {
                 try {
-                    temp.close();
+                    bw.close();
                 } catch ( IOException e ) {
                     e.printStackTrace( );
                 }
@@ -74,7 +73,7 @@ public class _myFileDemo {
     public static void main ( String[] args ) {
 //        init( );
 
-        copy( );
+        copy( "D://test.txt", "E://test.txt" );
 
         delete( "D://test.txt" );
 //        delete( "E://test.txt" );
