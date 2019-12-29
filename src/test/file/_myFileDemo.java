@@ -9,7 +9,7 @@ public class _myFileDemo {
 
     public static void init ( ) {
         try {
-            bw = new BufferedWriter( new FileWriter( "F://test.txt" ) );
+            bw = new BufferedWriter( new FileWriter( "D://test.txt" ) );
 
             bw.write( "Hello java!" );
             bw.newLine();
@@ -34,7 +34,7 @@ public class _myFileDemo {
     public static void copy ( ) {
         BufferedWriter temp = null;
         try {
-            br = new BufferedReader( new FileReader( "F://test.txt" ) );
+            br = new BufferedReader( new FileReader( "D://test.txt" ) );
 
             temp = new BufferedWriter( new FileWriter( "E://test.txt" ) );
 
@@ -76,7 +76,7 @@ public class _myFileDemo {
 
         copy( );
 
-        delete( "F://test.txt" );
+        delete( "D://test.txt" );
 //        delete( "E://test.txt" );
 
     }
